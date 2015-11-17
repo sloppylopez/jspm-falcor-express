@@ -20,12 +20,13 @@ System.config({
         "express": "npm:express@4.13.3",
         "falcor-express": "npm:falcor-express@0.1.2",
         "falcor-router": "npm:falcor-router@0.2.11",
+        "path": "npm:path@0.12.7",
         "github:jspm/nodelibs-assert@0.1.0": {
             "assert": "npm:assert@1.3.0"
-        },
+    },
         "github:jspm/nodelibs-buffer@0.1.0": {
             "buffer": "npm:buffer@3.5.2"
-        },
+    },
         "github:jspm/nodelibs-constants@0.1.0": {
             "constants-browserify": "npm:constants-browserify@0.0.1"
         },
@@ -487,6 +488,10 @@ System.config({
         "npm:path-to-regexp@0.1.3": {
             "assert": "github:jspm/nodelibs-assert@0.1.0"
         },
+        "npm:path@0.12.7": {
+            "process": "npm:process@0.11.2",
+            "util": "npm:util@0.10.3"
+        },
         "npm:pbkdf2@3.0.4": {
             "buffer": "github:jspm/nodelibs-buffer@0.1.0",
             "child_process": "github:jspm/nodelibs-child_process@0.1.0",
@@ -640,6 +645,6 @@ System.config({
         },
         "npm:vm-browserify@0.0.4": {
             "indexof": "npm:indexof@0.0.1"
-        }
+    }
     }
 });

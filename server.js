@@ -1,8 +1,9 @@
 // index.js
-var falcorExpress = require('falcor-express');
-var Router = require('falcor-router');
+import falcorExpress from 'falcor-express';
+import Router from 'falcor-router';
 
-var express = require('express');
+import express from 'express';
+
 var app = express();
 
 app.use('/model.json', falcorExpress.dataSourceRoute(function (req, res) {
@@ -18,7 +19,8 @@ app.use('/model.json', falcorExpress.dataSourceRoute(function (req, res) {
         }
     ]);
 }));
-
+var __dirname = '.';
+console.log(__dirname);
 // serve static files from current directory
 app.use(express.static(__dirname + '/views'));
 console.log('Falcor-Express Server listening on port 3000');
