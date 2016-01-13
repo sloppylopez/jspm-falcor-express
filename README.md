@@ -11,3 +11,7 @@ jspm run server
 
 ### To install
 jspm install
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/sloppylopez/jspm-falcor-express/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
